@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import DALI
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +18,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        guard let url = Bundle.main.url(forResource: "env", withExtension: "plist"),
+              let key = NSDictionary(contentsOf: url)?["apiKey"] as? String else {
+            fatalError("apiKey required!")
+        }
+        DALIapi.configure(config: DALIConfig(serverURL: "https://dalilab-api.herokuapp.com", apiKey: key, enableSockets: true))
+        
         return true
     }
 
