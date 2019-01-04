@@ -1,0 +1,41 @@
+PODS:
+  - DALI (0.4.5):
+    - EmitterKit
+    - FutureKit
+    - Socket.IO-Client-Swift
+    - SwiftyJSON
+  - EmitterKit (5.2.1)
+  - FutureKit (3.5.0)
+  - Socket.IO-Client-Swift (13.4.0):
+    - Starscream (~> 3.0.2)
+  - Starscream (3.0.6)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - DALI (from `~/Programming/DALI/Internal/framework`)
+  - EmitterKit
+  - FutureKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - EmitterKit
+    - FutureKit
+    - Socket.IO-Client-Swift
+    - Starscream
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  DALI:
+    :path: "~/Programming/DALI/Internal/framework"
+
+SPEC CHECKSUMS:
+  DALI: ba094cdc68e781e3469873a161d68eff1d1271d0
+  EmitterKit: 2a6818d291cb9f553d3cfdd6aba570bf62337f51
+  FutureKit: 91f6760df942278db387b05f19a9fdfbeb097df2
+  Socket.IO-Client-Swift: 2b2720f14c92ff1237ced09bc2f2da2022624fee
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: 1a69f0298d56d681725ca16a057d521956ee22a2
+
+COCOAPODS: 1.5.3
