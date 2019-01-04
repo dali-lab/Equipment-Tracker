@@ -11,7 +11,7 @@ import CoreLocation
 import FutureKit
 import EmitterKit
 
-public final class LocationTracker: NSObject, SingletonClass, CLLocationManagerDelegate {
+public final class LocationTracker: NSObject, CLLocationManagerDelegate {
     private static var _shared: LocationTracker?
     public static var shared: LocationTracker {
         if _shared == nil {

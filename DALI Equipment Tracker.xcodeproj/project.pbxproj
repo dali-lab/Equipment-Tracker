@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		182B56A2DC28D58D90B36BAB /* Pods_DALI_Equipment_TrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C47B2E0696E3790FDDB62E /* Pods_DALI_Equipment_TrackerTests.framework */; };
 		523FFE8621DF17AC006600FB /* env.plist in Resources */ = {isa = PBXBuildFile; fileRef = 523FFE8521DF17AC006600FB /* env.plist */; };
+		523FFE8821DFE257006600FB /* LabTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523FFE8721DFE257006600FB /* LabTracker.swift */; };
 		52A969C221DF01A600F186A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A969C121DF01A600F186A5 /* AppDelegate.swift */; };
 		52A969C421DF01A600F186A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A969C321DF01A600F186A5 /* ViewController.swift */; };
 		52A969C721DF01A600F186A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A969C521DF01A600F186A5 /* Main.storyboard */; };
@@ -18,7 +19,6 @@
 		52A969DA21DF01A600F186A5 /* DALI_Equipment_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A969D921DF01A600F186A5 /* DALI_Equipment_TrackerTests.swift */; };
 		52A969E521DF01A600F186A5 /* DALI_Equipment_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A969E421DF01A600F186A5 /* DALI_Equipment_TrackerUITests.swift */; };
 		52A969F321DF086900F186A5 /* LocationTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A969F221DF086900F186A5 /* LocationTracker.swift */; };
-		52A969F521DF08A100F186A5 /* SingletonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A969F421DF08A100F186A5 /* SingletonClass.swift */; };
 		5644E1C624D9A8E8453B51AA /* Pods_DALI_Equipment_TrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A70C76DF9C0F729F4BD9F9 /* Pods_DALI_Equipment_TrackerUITests.framework */; };
 		AA0013623BF77B6D96B902F4 /* Pods_DALI_Equipment_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4F0F3379AE17A90A81C136 /* Pods_DALI_Equipment_Tracker.framework */; };
 /* End PBXBuildFile section */
@@ -44,6 +44,7 @@
 		210CCD6C24D67E5EB71F36AD /* Pods-DALI Equipment TrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DALI Equipment TrackerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DALI Equipment TrackerTests/Pods-DALI Equipment TrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		354897141C797AF7D4AD87CA /* Pods-DALI Equipment Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DALI Equipment Tracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DALI Equipment Tracker/Pods-DALI Equipment Tracker.debug.xcconfig"; sourceTree = "<group>"; };
 		523FFE8521DF17AC006600FB /* env.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = env.plist; sourceTree = "<group>"; };
+		523FFE8721DFE257006600FB /* LabTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabTracker.swift; sourceTree = "<group>"; };
 		52A969BE21DF01A600F186A5 /* DALI Equipment Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DALI Equipment Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A969C121DF01A600F186A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52A969C321DF01A600F186A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +60,6 @@
 		52A969E421DF01A600F186A5 /* DALI_Equipment_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DALI_Equipment_TrackerUITests.swift; sourceTree = "<group>"; };
 		52A969E621DF01A600F186A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52A969F221DF086900F186A5 /* LocationTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTracker.swift; sourceTree = "<group>"; };
-		52A969F421DF08A100F186A5 /* SingletonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonClass.swift; sourceTree = "<group>"; };
 		58A70C76DF9C0F729F4BD9F9 /* Pods_DALI_Equipment_TrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DALI_Equipment_TrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F9DF4C5B92FC94748448071 /* Pods-DALI Equipment TrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DALI Equipment TrackerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DALI Equipment TrackerUITests/Pods-DALI Equipment TrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A594A8886C4AC4E7D678AAB1 /* Pods-DALI Equipment Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DALI Equipment Tracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-DALI Equipment Tracker/Pods-DALI Equipment Tracker.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,8 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				52A969C821DF01A600F186A5 /* DALI_Equipment_Tracker.xcdatamodeld */,
-				52A969F421DF08A100F186A5 /* SingletonClass.swift */,
 				52A969F221DF086900F186A5 /* LocationTracker.swift */,
+				523FFE8721DFE257006600FB /* LabTracker.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -438,10 +438,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523FFE8821DFE257006600FB /* LabTracker.swift in Sources */,
 				52A969CA21DF01A600F186A5 /* DALI_Equipment_Tracker.xcdatamodeld in Sources */,
 				52A969F321DF086900F186A5 /* LocationTracker.swift in Sources */,
 				52A969C421DF01A600F186A5 /* ViewController.swift in Sources */,
-				52A969F521DF08A100F186A5 /* SingletonClass.swift in Sources */,
 				52A969C221DF01A600F186A5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         guard let url = Bundle.main.url(forResource: "env", withExtension: "plist"),
               let key = NSDictionary(contentsOf: url)?["apiKey"] as? String else {
-            fatalError("apiKey required!")
+            fatalError("apiKey in env.plist required!")
         }
         DALIapi.configure(config: DALIConfig(serverURL: "https://dalilab-api.herokuapp.com", apiKey: key, enableSockets: true))
         
