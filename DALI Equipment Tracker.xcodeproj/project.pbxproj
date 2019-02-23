@@ -10,6 +10,7 @@
 		182B56A2DC28D58D90B36BAB /* Pods_DALI_Equipment_TrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C47B2E0696E3790FDDB62E /* Pods_DALI_Equipment_TrackerTests.framework */; };
 		523FFE8621DF17AC006600FB /* env.plist in Resources */ = {isa = PBXBuildFile; fileRef = 523FFE8521DF17AC006600FB /* env.plist */; };
 		523FFE8821DFE257006600FB /* LabTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523FFE8721DFE257006600FB /* LabTracker.swift */; };
+		529132702220BC0400299DDE /* TableViewDiffController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291326F2220BC0400299DDE /* TableViewDiffController.swift */; };
 		52A969C221DF01A600F186A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A969C121DF01A600F186A5 /* AppDelegate.swift */; };
 		52A969C421DF01A600F186A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A969C321DF01A600F186A5 /* ViewController.swift */; };
 		52A969C721DF01A600F186A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A969C521DF01A600F186A5 /* Main.storyboard */; };
@@ -19,6 +20,11 @@
 		52A969DA21DF01A600F186A5 /* DALI_Equipment_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A969D921DF01A600F186A5 /* DALI_Equipment_TrackerTests.swift */; };
 		52A969E521DF01A600F186A5 /* DALI_Equipment_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A969E421DF01A600F186A5 /* DALI_Equipment_TrackerUITests.swift */; };
 		52A969F321DF086900F186A5 /* LocationTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A969F221DF086900F186A5 /* LocationTracker.swift */; };
+		52F2AB752220B2C10052BA1C /* Initialization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F2AB742220B2C10052BA1C /* Initialization.storyboard */; };
+		52F2AB782220B4830052BA1C /* InitializationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F2AB772220B4830052BA1C /* InitializationTableViewController.swift */; };
+		52F2AB7A2220B4F20052BA1C /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F2AB792220B4F20052BA1C /* Helpers.swift */; };
+		52F2AB7C2220B6980052BA1C /* InitializationEquipmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F2AB7B2220B6980052BA1C /* InitializationEquipmentCell.swift */; };
+		52F2AB7E2220B8C40052BA1C /* DALIViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F2AB7D2220B8C40052BA1C /* DALIViewProtocol.swift */; };
 		5644E1C624D9A8E8453B51AA /* Pods_DALI_Equipment_TrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A70C76DF9C0F729F4BD9F9 /* Pods_DALI_Equipment_TrackerUITests.framework */; };
 		AA0013623BF77B6D96B902F4 /* Pods_DALI_Equipment_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4F0F3379AE17A90A81C136 /* Pods_DALI_Equipment_Tracker.framework */; };
 /* End PBXBuildFile section */
@@ -45,6 +51,7 @@
 		354897141C797AF7D4AD87CA /* Pods-DALI Equipment Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DALI Equipment Tracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DALI Equipment Tracker/Pods-DALI Equipment Tracker.debug.xcconfig"; sourceTree = "<group>"; };
 		523FFE8521DF17AC006600FB /* env.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = env.plist; sourceTree = "<group>"; };
 		523FFE8721DFE257006600FB /* LabTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabTracker.swift; sourceTree = "<group>"; };
+		5291326F2220BC0400299DDE /* TableViewDiffController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDiffController.swift; sourceTree = "<group>"; };
 		52A969BE21DF01A600F186A5 /* DALI Equipment Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DALI Equipment Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A969C121DF01A600F186A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52A969C321DF01A600F186A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +67,11 @@
 		52A969E421DF01A600F186A5 /* DALI_Equipment_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DALI_Equipment_TrackerUITests.swift; sourceTree = "<group>"; };
 		52A969E621DF01A600F186A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52A969F221DF086900F186A5 /* LocationTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTracker.swift; sourceTree = "<group>"; };
+		52F2AB742220B2C10052BA1C /* Initialization.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Initialization.storyboard; sourceTree = "<group>"; };
+		52F2AB772220B4830052BA1C /* InitializationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializationTableViewController.swift; sourceTree = "<group>"; };
+		52F2AB792220B4F20052BA1C /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		52F2AB7B2220B6980052BA1C /* InitializationEquipmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializationEquipmentCell.swift; sourceTree = "<group>"; };
+		52F2AB7D2220B8C40052BA1C /* DALIViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DALIViewProtocol.swift; sourceTree = "<group>"; };
 		58A70C76DF9C0F729F4BD9F9 /* Pods_DALI_Equipment_TrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DALI_Equipment_TrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F9DF4C5B92FC94748448071 /* Pods-DALI Equipment TrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DALI Equipment TrackerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DALI Equipment TrackerUITests/Pods-DALI Equipment TrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A594A8886C4AC4E7D678AAB1 /* Pods-DALI Equipment Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DALI Equipment Tracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-DALI Equipment Tracker/Pods-DALI Equipment Tracker.release.xcconfig"; sourceTree = "<group>"; };
@@ -110,9 +122,11 @@
 		523FFE8121DF0FF7006600FB /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				52F2AB762220B4590052BA1C /* Initialization */,
 				52A969C521DF01A600F186A5 /* Main.storyboard */,
 				52A969CD21DF01A600F186A5 /* LaunchScreen.storyboard */,
 				52A969C321DF01A600F186A5 /* ViewController.swift */,
+				52F2AB7D2220B8C40052BA1C /* DALIViewProtocol.swift */,
 				52A969CB21DF01A600F186A5 /* Assets.xcassets */,
 			);
 			path = UI;
@@ -153,6 +167,8 @@
 			isa = PBXGroup;
 			children = (
 				52A969C121DF01A600F186A5 /* AppDelegate.swift */,
+				5291326F2220BC0400299DDE /* TableViewDiffController.swift */,
+				52F2AB792220B4F20052BA1C /* Helpers.swift */,
 				523FFE8121DF0FF7006600FB /* UI */,
 				523FFE8021DF0FEE006600FB /* Data */,
 				523FFE8221DF101C006600FB /* Supporting Files */,
@@ -176,6 +192,16 @@
 				52A969E621DF01A600F186A5 /* Info.plist */,
 			);
 			path = "DALI Equipment TrackerUITests";
+			sourceTree = "<group>";
+		};
+		52F2AB762220B4590052BA1C /* Initialization */ = {
+			isa = PBXGroup;
+			children = (
+				52F2AB742220B2C10052BA1C /* Initialization.storyboard */,
+				52F2AB772220B4830052BA1C /* InitializationTableViewController.swift */,
+				52F2AB7B2220B6980052BA1C /* InitializationEquipmentCell.swift */,
+			);
+			path = Initialization;
 			sourceTree = "<group>";
 		};
 		7AA96EA7E747234419F17191 /* Frameworks */ = {
@@ -312,6 +338,7 @@
 				523FFE8621DF17AC006600FB /* env.plist in Resources */,
 				52A969CF21DF01A600F186A5 /* LaunchScreen.storyboard in Resources */,
 				52A969CC21DF01A600F186A5 /* Assets.xcassets in Resources */,
+				52F2AB752220B2C10052BA1C /* Initialization.storyboard in Resources */,
 				52A969C721DF01A600F186A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,9 +465,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				529132702220BC0400299DDE /* TableViewDiffController.swift in Sources */,
+				52F2AB7E2220B8C40052BA1C /* DALIViewProtocol.swift in Sources */,
 				523FFE8821DFE257006600FB /* LabTracker.swift in Sources */,
+				52F2AB7A2220B4F20052BA1C /* Helpers.swift in Sources */,
 				52A969CA21DF01A600F186A5 /* DALI_Equipment_Tracker.xcdatamodeld in Sources */,
 				52A969F321DF086900F186A5 /* LocationTracker.swift in Sources */,
+				52F2AB7C2220B6980052BA1C /* InitializationEquipmentCell.swift in Sources */,
+				52F2AB782220B4830052BA1C /* InitializationTableViewController.swift in Sources */,
 				52A969C421DF01A600F186A5 /* ViewController.swift in Sources */,
 				52A969C221DF01A600F186A5 /* AppDelegate.swift in Sources */,
 			);
